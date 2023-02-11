@@ -2,11 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+/* for all the cards */
+.small-card{
+   @apply col-span-1 row-span-1 text-center p-4 
+}
 
+
+
+/* for all the buttons */
 .btn-info{
     @apply bg-blue-500 transition duration-500 text-white cursor-pointer py-2 px-8 rounded;
 }
 
 .btn-info:hover{
     @apply bg-blue-700; 
+}
+
+.btn-danger{
+    @apply bg-red-500 transition duration-500 text-white cursor-pointer py-2 px-8 rounded;
+}
+
+.btn-danger:hover{
+    @apply bg-red-700; 
+}
+
+.btn-warning{
+    @apply bg-yellow-500 transition duration-500 text-white cursor-pointer py-2 px-8 rounded;
+}
+
+.btn-warning:hover{
+    @apply bg-yellow-700; 
+}
+
+.btn-okay{
+    @apply bg-green-500 transition duration-500 text-white cursor-pointer py-2 px-8 rounded;
+}
+
+.btn-okay:hover{
+    @apply bg-green-700; 
+}
+
+.btn-love{
+    @apply bg-pink-500 transition duration-500 text-white cursor-pointer py-2 px-8 rounded;
+}
+
+.btn-love:hover{
+    @apply bg-pink-700; 
 }
